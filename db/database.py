@@ -1,6 +1,5 @@
 import pymongo
 
-
 class Database:
     def __init__(self, database, collection, dataset):
         connectionString = "localhost:27017"
